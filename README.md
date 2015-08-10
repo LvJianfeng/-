@@ -1,57 +1,59 @@
 
 # 网络通信
     1、ASIHTTPRequest
-　　这是一个经典的老库，功能完全而强大，但已经停止更新很久了(iOS5.0停止更新，但是我最近看github上这个项目有新改动)。在不同iOS版本上略微有一些小问题(提醒显示上的)，所以用的时候还是稍微修改一下比较好。
-　　下载地址：https://github.com/pokeb/asi-http-request
+    这是一个经典的老库，功能完全而强大，但已经停止更新很久了(iOS5.0停止更新，但是我最近看github上这个项目有新改动)。在不同iOS版本上略微有一些小问题(提醒显示上的)，所以用的时候还是稍微修改一下比较好。
+    下载地址：https://github.com/pokeb/asi-http-request
 
-　　2、AFNetworking
-　　轻量级的通讯类库，使用非常简单。
-　　下载地址：https://github.com/AFNetworking/AFNetworking
-　　3、MKNetworkKit
-　　最近做的不错的一个通讯类库，具有AFNetworking和ASIHTTPRequest双方的优点，甚至功能更丰富一些，但是本人还没有使用过。
-　　下载地址：https://github.com/MugunthKumar/MKNetworkKit
-　　Socket
-　　1、CocoaAsyncSocket
-　　CocoaAsyncSocket是用的最广泛的socket开发库，省略了程序员与CFNetwork接触的时间，延长了程序员寿命。
-　　下载地址：https://github.com/robbiehanson/CocoaAsyncSocket
-　　2、SocketRocket
-　　SocketRocket是Square开发的一个实现webSocket的库，可以轻松的实现即时通信。
-　　下载地址：https://github.com/square/SocketRocket
-　　数据解析
-　　1、SBJSON
-　　SBJson的解析速度其实是比较慢的，但是不知道为什么它却是用的最广的。
-　　下载地址：
+    2、AFNetworking
+    轻量级的通讯类库，使用非常简单。
+    下载地址：https://github.com/AFNetworking/AFNetworking
+    3、MKNetworkKit
+    最近做的不错的一个通讯类库，具有AFNetworking和ASIHTTPRequest双方的优点，甚至功能更丰富一些，但是本人还没有使用过。
+    下载地址：https://github.com/MugunthKumar/MKNetworkKit
+        
+# Socket
+    1、CocoaAsyncSocket
+    CocoaAsyncSocket是用的最广泛的socket开发库，省略了程序员与CFNetwork接触的时间，延长了程序员寿命。
+    下载地址：https://github.com/robbiehanson/CocoaAsyncSocket
+    2、SocketRocket
+    SocketRocket是Square开发的一个实现webSocket的库，可以轻松的实现即时通信。
+    下载地址：https://github.com/square/SocketRocket
+        
+# 数据解析
+    1、SBJSON
+    SBJson的解析速度其实是比较慢的，但是不知道为什么它却是用的最广的。
+    下载地址：
 
-　　2、JSONKit
-　　JSONKit解析速度上最接近iOS原生解析类，当然iOS5.0才开始支持原生解析，所以选择一个库还是很必要的。
-　　下载地址：https://github.com/johnezang/JSONKit
+    2、JSONKit
+    JSONKit解析速度上最接近iOS原生解析类，当然iOS5.0才开始支持原生解析，所以选择一个库还是很必要的。
+    下载地址：https://github.com/johnezang/JSONKit
 
-　　3、TouchJSON
-　　TouchJSON用的也比较广泛.
-　　下载地址：https://github.com/TouchCode/TouchJSON
+    3、TouchJSON
+    TouchJSON用的也比较广泛.
+    下载地址：https://github.com/TouchCode/TouchJSON
 
-　　4、json-framework
-　　没有用过。
-　　下载地址：https://github.com/stig/json-framework
-　　5、TBXML
-　　TBXML是一套轻量级的DOM方式的XML解析类库，有很好的性能和低内存占用，不过它不对XML格式进行校验，不支持XPath，并且只支持解析，不支持对XML进行修改。
-　　下载地址：https://github.com/71squared/TBXML
+    4、json-framework
+    没有用过。
+    下载地址：https://github.com/stig/json-framework
+    5、TBXML
+    TBXML是一套轻量级的DOM方式的XML解析类库，有很好的性能和低内存占用，不过它不对XML格式进行校验，不支持XPath，并且只支持解析，不支持对XML进行修改。
+    下载地址：https://github.com/71squared/TBXML
 
-　　6、TouchXML
-　　TouchXML这也是一套DOM方式的XML解析类库，支持XPath，不支持XML的修改。
-　　下载地址：https://github.com/TouchCode/TouchXML
+    6、TouchXML
+    TouchXML这也是一套DOM方式的XML解析类库，支持XPath，不支持XML的修改。
+    下载地址：https://github.com/TouchCode/TouchXML
 
-　　7、KissXML
-　　KissXML这是一套基于TouchXML的XML解析类库，只不过实现了支持XML的修改。
-　　下载地址：https://github.com/robbiehanson/KissXML
+    7、KissXML
+    KissXML这是一套基于TouchXML的XML解析类库，只不过实现了支持XML的修改。
+    下载地址：https://github.com/robbiehanson/KissXML
 
-　　8、GDataXML
-　　GDataXML是Google开发的DOM方式XML解析类库，支持读取和修改XML文档，支持XPath方式查询。
-　　下载地址：
+    8、GDataXML
+    GDataXML是Google开发的DOM方式XML解析类库，支持读取和修改XML文档，支持XPath方式查询。
+    下载地址：
 
-　　第三方管理
-　　1、fmdb
-　　fmdb是一个数据库管理库，封装了sqlite相关的sql语句，简化数据库操作。
+# 第三方管理
+    1、fmdb
+    fmdb是一个数据库管理库，封装了sqlite相关的sql语句，简化数据库操作。
 　　下载地址：https://github.com/ccgus/fmdb
 　　2、ssziparchive
 　　ssziparchive与sstoolkit是同一个作者，这哥们儿简直是个天才。
