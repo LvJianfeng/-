@@ -1,6 +1,6 @@
-# -
-网络通信
-　　1、ASIHTTPRequest
+
+# 网络通信
+    1、ASIHTTPRequest
 　　这是一个经典的老库，功能完全而强大，但已经停止更新很久了(iOS5.0停止更新，但是我最近看github上这个项目有新改动)。在不同iOS版本上略微有一些小问题(提醒显示上的)，所以用的时候还是稍微修改一下比较好。
 　　下载地址：https://github.com/pokeb/asi-http-request
 
